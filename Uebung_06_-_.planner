@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="" company="" manager="" phase="" project-start="20260202T000000Z" mrproject-version="2" calendar="1">
+  <properties />
+  <phases />
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Working" description="A default working day" />
+      <day-type id="1" name="Nonworking" description="A default non working day" />
+      <day-type id="2" name="Use base" description="Use day from base calendar" />
+    </day-types>
+    <calendar id="1" name="Default">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1" />
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200" />
+          <interval start="1300" end="1700" />
+        </overridden-day-type>
+      </overridden-day-types>
+      <days />
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="I0 - Initialisierung" note="" work="0" start="20260202T000000Z" end="20260227T170000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="2" name="I1 - Stakeholder identifizieren" note="" work="0" start="20260202T000000Z" end="20260220T170000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="3" name="I1 Plan" note="" work="72000" start="20260202T000000Z" end="20260204T120000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20260202T000000Z" />
+        </task>
+        <task id="4" name="I1 Ist" note="" work="75600" start="20260202T000000Z" end="20260220T170000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="5" name="I1 06.02. PL 16 h" note="" work="57600" start="20260202T000000Z" end="20260203T170000Z" work-start="20260202T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260202T000000Z" />
+          </task>
+          <task id="6" name="I1 13.02. PL 2 h" note="" work="7200" start="20260209T000000Z" end="20260209T100000Z" work-start="20260209T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260209T000000Z" />
+          </task>
+          <task id="7" name="I1 20.02. PL 3 h" note="" work="10800" start="20260216T000000Z" end="20260216T110000Z" work-start="20260216T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260216T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="8" name="I2 - Anforderungsanalyse" note="" work="0" start="20260202T000000Z" end="20260220T170000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="9" name="I2 Plan" note="" work="72000" start="20260204T120000Z" end="20260206T170000Z" work-start="20260204T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="3" type="FS" />
+          </predecessors>
+        </task>
+        <task id="10" name="I2 Ist" note="" work="82800" start="20260202T000000Z" end="20260220T170000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="11" name="I2 06.02. PL 8 h" note="" work="28800" start="20260202T000000Z" end="20260202T170000Z" work-start="20260202T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260202T000000Z" />
+          </task>
+          <task id="12" name="I2 13.02. PL 10 h" note="" work="36000" start="20260209T000000Z" end="20260210T100000Z" work-start="20260209T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260209T000000Z" />
+          </task>
+          <task id="13" name="I2 20.02. MA1 5 h" note="" work="18000" start="20260216T000000Z" end="20260216T140000Z" work-start="20260216T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260216T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="14" name="I3 - Projektplanung" note="" work="0" start="20260202T000000Z" end="20260227T170000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="15" name="I3 Plan" note="" work="144000" start="20260209T000000Z" end="20260213T170000Z" work-start="20260209T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="9" type="FS" />
+          </predecessors>
+        </task>
+        <task id="16" name="I3 Ist" note="" work="140400" start="20260202T000000Z" end="20260227T170000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="17" name="I3 06.02. PL 4 h" note="" work="14400" start="20260202T000000Z" end="20260202T120000Z" work-start="20260202T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260202T000000Z" />
+          </task>
+          <task id="18" name="I3 13.02. PL 12 h" note="" work="43200" start="20260209T000000Z" end="20260210T120000Z" work-start="20260209T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260209T000000Z" />
+          </task>
+          <task id="19" name="I3 20.02. PL 15 h" note="" work="54000" start="20260216T000000Z" end="20260217T160000Z" work-start="20260216T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260216T000000Z" />
+          </task>
+          <task id="20" name="I3 27.02. PL 8 h" note="" work="28800" start="20260223T000000Z" end="20260223T170000Z" work-start="20260223T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260223T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="21" name="I4 - Projektauftrag" note="" work="0" start="20260209T000000Z" end="20260227T170000Z" work-start="20260202T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="22" name="I4 Plan" note="" work="72000" start="20260216T000000Z" end="20260218T120000Z" work-start="20260216T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="15" type="FS" />
+          </predecessors>
+        </task>
+        <task id="23" name="I4 Ist" note="" work="61200" start="20260209T000000Z" end="20260227T170000Z" work-start="20260209T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="24" name="I4 13.02. PL 2 h" note="" work="7200" start="20260209T000000Z" end="20260209T100000Z" work-start="20260209T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260209T000000Z" />
+          </task>
+          <task id="25" name="I4 20.02. PO 5 h" note="" work="18000" start="20260216T000000Z" end="20260216T140000Z" work-start="20260216T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260216T000000Z" />
+          </task>
+          <task id="26" name="I4 27.02. PO 10 h" note="" work="36000" start="20260223T000000Z" end="20260224T100000Z" work-start="20260223T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260223T000000Z" />
+          </task>
+        </task>
+      </task>
+    </task>
+    <task id="27" name="K0 - Konzept" note="" work="0" start="20260216T000000Z" end="20260320T170000Z" work-start="20260216T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="28" name="K1 - Systemanforderungen" note="" work="0" start="20260216T000000Z" end="20260320T170000Z" work-start="20260216T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="29" name="K1 Plan" note="" work="144000" start="20260223T000000Z" end="20260227T170000Z" work-start="20260223T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20260223T000000Z" />
+        </task>
+        <task id="30" name="K1 Ist" note="" work="162000" start="20260216T000000Z" end="20260320T170000Z" work-start="20260216T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="31" name="K1 20.02. MA1 10 h" note="" work="36000" start="20260216T000000Z" end="20260217T100000Z" work-start="20260216T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260216T000000Z" />
+          </task>
+          <task id="32" name="K1 06.03. MA1 10 h" note="" work="36000" start="20260302T000000Z" end="20260303T100000Z" work-start="20260302T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260302T000000Z" />
+          </task>
+          <task id="33" name="K1 13.03. MA1 15 h" note="" work="54000" start="20260309T000000Z" end="20260310T160000Z" work-start="20260309T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260309T000000Z" />
+          </task>
+          <task id="34" name="K1 20.03. PL 10 h" note="" work="36000" start="20260316T000000Z" end="20260317T100000Z" work-start="20260316T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260316T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="35" name="K2 - Betriebskonzept" note="" work="0" start="20260223T000000Z" end="20260313T170000Z" work-start="20260223T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="36" name="K2 Plan" note="" work="72000" start="20260302T000000Z" end="20260304T120000Z" work-start="20260302T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="29" type="FS" />
+          </predecessors>
+        </task>
+        <task id="37" name="K2 Ist" note="" work="82800" start="20260223T000000Z" end="20260313T170000Z" work-start="20260223T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="38" name="K2 27.02. MA2 5 h" note="" work="18000" start="20260223T000000Z" end="20260223T140000Z" work-start="20260223T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260223T000000Z" />
+          </task>
+          <task id="39" name="K2 06.03. MA2 10 h" note="" work="36000" start="20260302T000000Z" end="20260303T100000Z" work-start="20260302T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260302T000000Z" />
+          </task>
+          <task id="40" name="K2 13.03. MA2 8 h" note="" work="28800" start="20260309T000000Z" end="20260309T170000Z" work-start="20260309T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260309T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="41" name="K3 - Einführungskonzept" note="" work="0" start="20260223T000000Z" end="20260313T170000Z" work-start="20260223T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="42" name="K3 Plan" note="" work="72000" start="20260304T120000Z" end="20260306T170000Z" work-start="20260304T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="36" type="FS" />
+          </predecessors>
+        </task>
+        <task id="43" name="K3 Ist" note="" work="64800" start="20260223T000000Z" end="20260313T170000Z" work-start="20260223T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="44" name="K3 27.02. MA2 5 h" note="" work="18000" start="20260223T000000Z" end="20260223T140000Z" work-start="20260223T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260223T000000Z" />
+          </task>
+          <task id="45" name="K3 06.03. MA2 8 h" note="" work="28800" start="20260302T000000Z" end="20260302T170000Z" work-start="20260302T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260302T000000Z" />
+          </task>
+          <task id="46" name="K3 13.03. MA2 5 h" note="" work="18000" start="20260309T000000Z" end="20260309T140000Z" work-start="20260309T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260309T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="47" name="K4 - Testkonzept" note="" work="0" start="20260223T000000Z" end="20260313T170000Z" work-start="20260223T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="48" name="K4 Plan" note="" work="72000" start="20260309T000000Z" end="20260311T120000Z" work-start="20260309T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="42" type="FS" />
+          </predecessors>
+        </task>
+        <task id="49" name="K4 Ist" note="" work="64800" start="20260223T000000Z" end="20260313T170000Z" work-start="20260223T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="50" name="K4 27.02. MA3 5 h" note="" work="18000" start="20260223T000000Z" end="20260223T140000Z" work-start="20260223T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260223T000000Z" />
+          </task>
+          <task id="51" name="K4 06.03. MA3 8 h" note="" work="28800" start="20260302T000000Z" end="20260302T170000Z" work-start="20260302T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260302T000000Z" />
+          </task>
+          <task id="52" name="K4 13.03. MA3 5 h" note="" work="18000" start="20260309T000000Z" end="20260309T140000Z" work-start="20260309T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260309T000000Z" />
+          </task>
+        </task>
+      </task>
+    </task>
+    <task id="53" name="P0 - Preparation" note="" work="0" start="20260309T000000Z" end="20260424T170000Z" work-start="20260309T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="54" name="P1 - Infrastruktur" note="" work="0" start="20260309T000000Z" end="20260417T170000Z" work-start="20260309T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="55" name="P1 Plan" note="" work="144000" start="20260316T000000Z" end="20260320T170000Z" work-start="20260316T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20260316T000000Z" />
+        </task>
+        <task id="56" name="P1 Ist" note="" work="154800" start="20260309T000000Z" end="20260417T170000Z" work-start="20260309T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="57" name="P1 13.03. MA5 8 h" note="" work="28800" start="20260309T000000Z" end="20260309T170000Z" work-start="20260309T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260309T000000Z" />
+          </task>
+          <task id="58" name="P1 20.03. MA5 16 h" note="" work="57600" start="20260316T000000Z" end="20260317T170000Z" work-start="20260316T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260316T000000Z" />
+          </task>
+          <task id="59" name="P1 27.03. MA5 14 h" note="" work="50400" start="20260323T000000Z" end="20260324T150000Z" work-start="20260323T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260323T000000Z" />
+          </task>
+          <task id="60" name="P1 17.04. MA5 5 h" note="" work="18000" start="20260413T000000Z" end="20260413T140000Z" work-start="20260413T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260413T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="61" name="P2 - Services" note="" work="0" start="20260316T000000Z" end="20260417T170000Z" work-start="20260316T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="62" name="P2 Plan" note="" work="144000" start="20260323T000000Z" end="20260327T170000Z" work-start="20260323T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="55" type="FS" />
+          </predecessors>
+        </task>
+        <task id="63" name="P2 Ist" note="" work="183600" start="20260316T000000Z" end="20260417T170000Z" work-start="20260316T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="64" name="P2 20.03. MA5 8 h" note="" work="28800" start="20260316T000000Z" end="20260316T170000Z" work-start="20260316T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260316T000000Z" />
+          </task>
+          <task id="65" name="P2 27.03. MA5 16 h" note="" work="57600" start="20260323T000000Z" end="20260324T170000Z" work-start="20260323T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260323T000000Z" />
+          </task>
+          <task id="66" name="P2 02.04. MA5 12 h" note="" work="43200" start="20260330T000000Z" end="20260331T120000Z" work-start="20260330T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260330T000000Z" />
+          </task>
+          <task id="67" name="P2 10.04. MA5 10 h" note="" work="36000" start="20260406T000000Z" end="20260407T100000Z" work-start="20260406T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260406T000000Z" />
+          </task>
+          <task id="68" name="P2 17.04. MA5 5 h" note="" work="18000" start="20260413T000000Z" end="20260413T140000Z" work-start="20260413T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260413T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="69" name="P3 - Datenbank" note="" work="0" start="20260323T000000Z" end="20260417T170000Z" work-start="20260316T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="70" name="P3 Plan" note="" work="72000" start="20260330T000000Z" end="20260401T120000Z" work-start="20260330T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="62" type="FS" />
+          </predecessors>
+        </task>
+        <task id="71" name="P3 Ist" note="" work="68400" start="20260323T000000Z" end="20260417T170000Z" work-start="20260323T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="72" name="P3 27.03. MA5 5 h" note="" work="18000" start="20260323T000000Z" end="20260323T140000Z" work-start="20260323T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260323T000000Z" />
+          </task>
+          <task id="73" name="P3 02.04. MA5 10 h" note="" work="36000" start="20260330T000000Z" end="20260331T100000Z" work-start="20260330T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260330T000000Z" />
+          </task>
+          <task id="74" name="P3 17.04. MA5 4 h" note="" work="14400" start="20260413T000000Z" end="20260413T120000Z" work-start="20260413T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260413T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="75" name="P4 - Applikationsbackend" note="" work="0" start="20260330T000000Z" end="20260424T170000Z" work-start="20260316T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="76" name="P4 Plan" note="" work="144000" start="20260401T120000Z" end="20260408T120000Z" work-start="20260401T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="70" type="FS" />
+          </predecessors>
+        </task>
+        <task id="77" name="P4 Ist" note="" work="126000" start="20260330T000000Z" end="20260424T170000Z" work-start="20260330T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="78" name="P4 02.04. MA5 8 h" note="" work="28800" start="20260330T000000Z" end="20260330T170000Z" work-start="20260330T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260330T000000Z" />
+          </task>
+          <task id="79" name="P4 10.04. MA3 10 h" note="" work="36000" start="20260406T000000Z" end="20260407T100000Z" work-start="20260406T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260406T000000Z" />
+          </task>
+          <task id="80" name="P4 10.04. MA5 8 h" note="" work="28800" start="20260406T000000Z" end="20260406T170000Z" work-start="20260406T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260406T000000Z" />
+          </task>
+          <task id="81" name="P4 17.04. MA3 4 h" note="" work="14400" start="20260413T000000Z" end="20260413T120000Z" work-start="20260413T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260413T000000Z" />
+          </task>
+          <task id="82" name="P4 24.04. MA3 5 h" note="" work="18000" start="20260420T000000Z" end="20260420T140000Z" work-start="20260420T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260420T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="83" name="P5 - Webserver" note="" work="0" start="20260406T000000Z" end="20260424T170000Z" work-start="20260316T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="84" name="P5 Plan" note="" work="72000" start="20260408T120000Z" end="20260410T170000Z" work-start="20260408T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="76" type="FS" />
+          </predecessors>
+        </task>
+        <task id="85" name="P5 Ist" note="" work="75600" start="20260406T000000Z" end="20260424T170000Z" work-start="20260406T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="86" name="P5 10.04. MA3 12 h" note="" work="43200" start="20260406T000000Z" end="20260407T120000Z" work-start="20260406T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260406T000000Z" />
+          </task>
+          <task id="87" name="P5 17.04. MA3 4 h" note="" work="14400" start="20260413T000000Z" end="20260413T120000Z" work-start="20260413T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260413T000000Z" />
+          </task>
+          <task id="88" name="P5 24.04. MA3 5 h" note="" work="18000" start="20260420T000000Z" end="20260420T140000Z" work-start="20260420T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260420T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="89" name="P6 - UI/UX-Mockup" note="" work="0" start="20260316T000000Z" end="20260424T170000Z" work-start="20260316T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="90" name="P6 Plan" note="" work="144000" start="20260413T000000Z" end="20260417T170000Z" work-start="20260413T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="84" type="FS" />
+          </predecessors>
+        </task>
+        <task id="91" name="P6 Ist" note="" work="115200" start="20260316T000000Z" end="20260424T170000Z" work-start="20260316T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="92" name="P6 20.03. MA4 8 h" note="" work="28800" start="20260316T000000Z" end="20260316T170000Z" work-start="20260316T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260316T000000Z" />
+          </task>
+          <task id="93" name="P6 27.03. MA4 8 h" note="" work="28800" start="20260323T000000Z" end="20260323T170000Z" work-start="20260323T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260323T000000Z" />
+          </task>
+          <task id="94" name="P6 02.04. MA4 12 h" note="" work="43200" start="20260330T000000Z" end="20260331T120000Z" work-start="20260330T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260330T000000Z" />
+          </task>
+          <task id="95" name="P6 24.04. MA4 4 h" note="" work="14400" start="20260420T000000Z" end="20260420T120000Z" work-start="20260420T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260420T000000Z" />
+          </task>
+        </task>
+      </task>
+    </task>
+    <task id="96" name="R0 - Realisierung" note="" work="0" start="20260309T000000Z" end="20260626T170000Z" work-start="20260309T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="97" name="R1 - Benutzerwewaltung" note="" work="0" start="20260309T000000Z" end="20260529T170000Z" work-start="20260309T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="98" name="R1 Plan" note="" work="144000" start="20260420T000000Z" end="20260424T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20260420T000000Z" />
+        </task>
+        <task id="99" name="R1 Ist" note="" work="111600" start="20260309T000000Z" end="20260529T170000Z" work-start="20260309T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="100" name="R1 13.03. MA4 10 h" note="" work="36000" start="20260309T000000Z" end="20260310T100000Z" work-start="20260309T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260309T000000Z" />
+          </task>
+          <task id="101" name="R1 22.05. MA4 15 h" note="" work="54000" start="20260518T000000Z" end="20260519T160000Z" work-start="20260518T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260518T000000Z" />
+          </task>
+          <task id="102" name="R1 29.05. MA4 6 h" note="" work="21600" start="20260525T000000Z" end="20260525T150000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="103" name="R2 - Benutzer Login" note="" work="0" start="20260420T000000Z" end="20260515T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="104" name="R2 Plan" note="" work="144000" start="20260427T000000Z" end="20260501T170000Z" work-start="20260427T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="98" type="FS" />
+          </predecessors>
+        </task>
+        <task id="105" name="R2 Ist" note="" work="140400" start="20260420T000000Z" end="20260515T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="106" name="R2 24.04. MA4 6 h" note="" work="21600" start="20260420T000000Z" end="20260420T150000Z" work-start="20260420T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260420T000000Z" />
+          </task>
+          <task id="107" name="R2 30.04. MA4 6 h" note="" work="21600" start="20260427T000000Z" end="20260427T150000Z" work-start="20260427T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260427T000000Z" />
+          </task>
+          <task id="108" name="R2 09.05. MA4 15 h" note="" work="54000" start="20260504T000000Z" end="20260505T160000Z" work-start="20260504T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260504T000000Z" />
+          </task>
+          <task id="109" name="R2 15.05. MA4 12 h" note="" work="43200" start="20260511T000000Z" end="20260512T120000Z" work-start="20260511T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260511T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="110" name="R3 - Berechtigungen" note="" work="0" start="20260427T000000Z" end="20260529T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="111" name="R3 Plan" note="" work="72000" start="20260504T000000Z" end="20260506T120000Z" work-start="20260504T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="104" type="FS" />
+          </predecessors>
+        </task>
+        <task id="112" name="R3 Ist" note="" work="115200" start="20260427T000000Z" end="20260529T170000Z" work-start="20260427T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="113" name="R3 30.04. PL 10 h" note="" work="36000" start="20260427T000000Z" end="20260428T100000Z" work-start="20260427T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260427T000000Z" />
+          </task>
+          <task id="114" name="R3 08.05. PL 12 h" note="" work="43200" start="20260504T000000Z" end="20260505T120000Z" work-start="20260504T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260504T000000Z" />
+          </task>
+          <task id="115" name="R3 29.05. MA3 5 h" note="" work="18000" start="20260525T000000Z" end="20260525T140000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+          <task id="116" name="R3 29.05. MA3 5 h" note="" work="18000" start="20260525T000000Z" end="20260525T140000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="117" name="R4 - Datentransfer Buchhaltung" note="" work="0" start="20260506T000000Z" end="20260529T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="118" name="R4 Plan" note="" work="108000" start="20260506T120000Z" end="20260512T100000Z" work-start="20260506T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="111" type="FS" />
+          </predecessors>
+        </task>
+        <task id="119" name="R4 Ist" note="" work="43200" start="20260525T000000Z" end="20260529T170000Z" work-start="20260525T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="120" name="R4 29.05. MA5 6 h" note="" work="21600" start="20260525T000000Z" end="20260525T150000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+          <task id="121" name="R4 29.05. MA5 6 h" note="" work="21600" start="20260525T000000Z" end="20260525T150000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="122" name="R5 - Mitarbeiter Admin" note="" work="0" start="20260427T000000Z" end="20260522T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="123" name="R5 Plan" note="" work="108000" start="20260512T100000Z" end="20260515T170000Z" work-start="20260512T100000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="118" type="FS" />
+          </predecessors>
+        </task>
+        <task id="124" name="R5 Ist" note="" work="133200" start="20260427T000000Z" end="20260522T170000Z" work-start="20260427T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="125" name="R5 30.04. MA3 5 h" note="" work="18000" start="20260427T000000Z" end="20260427T140000Z" work-start="20260427T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260427T000000Z" />
+          </task>
+          <task id="126" name="R5 08.05. MA3 12 h" note="" work="43200" start="20260504T000000Z" end="20260505T120000Z" work-start="20260504T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260504T000000Z" />
+          </task>
+          <task id="127" name="R5 15.05. MA3 12 h" note="" work="43200" start="20260511T000000Z" end="20260512T120000Z" work-start="20260511T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260511T000000Z" />
+          </task>
+          <task id="128" name="R5 22.05. MA3 8 h" note="" work="28800" start="20260518T000000Z" end="20260518T170000Z" work-start="20260518T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260518T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="129" name="R6 - Auftragsverwaltung" note="" work="0" start="20260504T000000Z" end="20260529T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="130" name="R6 Plan" note="" work="144000" start="20260518T000000Z" end="20260522T170000Z" work-start="20260518T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="123" type="FS" />
+          </predecessors>
+        </task>
+        <task id="131" name="R6 Ist" note="" work="122400" start="20260504T000000Z" end="20260529T170000Z" work-start="20260504T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="132" name="R6 08.05. MA3 6 h" note="" work="21600" start="20260504T000000Z" end="20260504T150000Z" work-start="20260504T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260504T000000Z" />
+          </task>
+          <task id="133" name="R6 22.05. MA3 12 h" note="" work="43200" start="20260518T000000Z" end="20260519T120000Z" work-start="20260518T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260518T000000Z" />
+          </task>
+          <task id="134" name="R6 29.05. MA3 8 h" note="" work="28800" start="20260525T000000Z" end="20260525T170000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+          <task id="135" name="R6 29.05. MA3 8 h" note="" work="28800" start="20260525T000000Z" end="20260525T170000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="136" name="R7 - Zeiterfassung" note="" work="0" start="20260525T000000Z" end="20260529T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="137" name="R7 Plan" note="" work="144000" start="20260525T000000Z" end="20260529T170000Z" work-start="20260525T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="130" type="FS" />
+          </predecessors>
+        </task>
+        <task id="138" name="R7 Ist" note="" work="21600" start="20260525T000000Z" end="20260529T170000Z" work-start="20260525T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="139" name="R7 29.05. MA4 6 h" note="" work="21600" start="20260525T000000Z" end="20260525T150000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="140" name="R8 - Kontrolle und Visum" note="" work="0" start="20260525T000000Z" end="20260605T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="141" name="R8 Plan" note="" work="144000" start="20260601T000000Z" end="20260605T170000Z" work-start="20260601T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="137" type="FS" />
+          </predecessors>
+        </task>
+        <task id="142" name="R8 Ist" note="" work="43200" start="20260525T000000Z" end="20260529T170000Z" work-start="20260525T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="143" name="R8 29.05. MA6 12 h" note="" work="43200" start="20260525T000000Z" end="20260526T120000Z" work-start="20260525T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20260525T000000Z" />
+          </task>
+        </task>
+      </task>
+      <task id="144" name="R9 - Spesenerfassung AD" note="" work="0" start="20260608T000000Z" end="20260612T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="145" name="R9 Plan" note="" work="144000" start="20260608T000000Z" end="20260612T170000Z" work-start="20260608T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="141" type="FS" />
+          </predecessors>
+        </task>
+      </task>
+      <task id="146" name="R10 - Reporting" note="" work="0" start="20260615T000000Z" end="20260619T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="147" name="R10 Plan" note="" work="144000" start="20260615T000000Z" end="20260619T170000Z" work-start="20260615T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="145" type="FS" />
+          </predecessors>
+        </task>
+      </task>
+      <task id="148" name="R11 - Test und Abnahme" note="" work="0" start="20260622T000000Z" end="20260626T170000Z" work-start="20260420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="149" name="R11 Plan" note="" work="144000" start="20260622T000000Z" end="20260626T170000Z" work-start="20260622T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="147" type="FS" />
+          </predecessors>
+        </task>
+      </task>
+    </task>
+    <task id="150" name="D0 - Deployment" note="" work="0" start="20260629T000000Z" end="20260731T170000Z" work-start="20260629T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="151" name="D1 - Betriebsübernahme" note="" work="0" start="20260629T000000Z" end="20260701T120000Z" work-start="20260629T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="152" name="D1 Plan" note="" work="72000" start="20260629T000000Z" end="20260701T120000Z" work-start="20260629T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20260629T000000Z" />
+        </task>
+      </task>
+      <task id="153" name="D2 - User-Schulung" note="" work="0" start="20260701T000000Z" end="20260703T170000Z" work-start="20260629T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="154" name="D2 Plan" note="" work="72000" start="20260701T120000Z" end="20260703T170000Z" work-start="20260701T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="152" type="FS" />
+          </predecessors>
+        </task>
+      </task>
+      <task id="155" name="D3 - Produktionsaufnahme" note="" work="0" start="20260706T000000Z" end="20260708T120000Z" work-start="20260629T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="156" name="D3 Plan" note="" work="72000" start="20260706T000000Z" end="20260708T120000Z" work-start="20260706T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="154" type="FS" />
+          </predecessors>
+        </task>
+      </task>
+      <task id="157" name="D4 - Abschlussbericht" note="" work="0" start="20260708T000000Z" end="20260710T170000Z" work-start="20260629T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="158" name="D4 Plan" note="" work="72000" start="20260708T120000Z" end="20260710T170000Z" work-start="20260708T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="156" type="FS" />
+          </predecessors>
+        </task>
+      </task>
+      <task id="159" name="D5 - Projektende" note="" work="0" start="20260731T170000Z" end="20260731T170000Z" work-start="20260731T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20260731T000000Z" />
+      </task>
+    </task>
+  </tasks>
+  <resource-groups />
+  <resources />
+  <allocations />
+</project>
